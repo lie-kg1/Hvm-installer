@@ -74,7 +74,7 @@ vps_panels_menu() {
                 # Wipe any broken or previous folders to avoid Git clone conflicts
                 rm -rf Hvm-installer
                 
-                # Clone and seamlessly move into the correct case-sensitive folder
+                # Clone and move into the correct case-sensitive folder
                 if git clone https://github.com/lie-kg1/Hvm-installer; then
                     cd Hvm-installer || exit
                     
