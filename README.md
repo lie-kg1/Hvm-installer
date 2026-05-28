@@ -9,4 +9,4 @@ A powerful, interactive, and colorful Bash script designed to fully automate the
 To run the installer menu instantly on your VPS, execute the following command:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/lie-kg1/Hvm-installer/refs/heads/main/HVM.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/lie-kg1/Hvm-installer/main/HVM.sh)
