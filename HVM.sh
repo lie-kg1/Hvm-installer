@@ -71,11 +71,12 @@ vps_panels_menu() {
                 vps_prepare_env
 
                 echo -e "\n${GREEN}Cloning SVM repository...${NC}"
-                # Wipe any broken/previous clones to avoid directory errors
-                rm -rf HVMvotex 
+                # Wipe any broken or previous folders to avoid Git clone conflicts
+                rm -rf Hvm-installer
                 
-                if git clone https://github.com/gangfreefireboy-svg/HVMvotex; then
-                    cd HVMvotex || exit
+                # Clone and seamlessly move into the correct case-sensitive folder
+                if git clone https://github.com/lie-kg1/Hvm-installer; then
+                    cd Hvm-installer || exit
                     
                     echo -e "\n${GREEN}Running installer script...${NC}"
                     if bash install.sh; then
@@ -93,7 +94,7 @@ vps_panels_menu() {
                     echo -e "\n${RED}❌ Error: Failed to clone repository.${NC}"
                 fi
                 
-                # Crucial: Always return back to the main directory before looping
+                # Crucial: Always return back to the main starting directory before looping
                 cd "$MAIN_DIR" || exit
                 echo -e "\n${YELLOW}Press Enter to return to menu...${NC}"
                 read -r
@@ -108,6 +109,7 @@ vps_panels_menu() {
                 echo -e "\n${RED}Invalid option! Please try again.${NC}"
                 sleep 1
                 ;;
+        fi
         esac
     done
 }
