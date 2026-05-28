@@ -109,7 +109,6 @@ vps_panels_menu() {
                 echo -e "\n${RED}Invalid option! Please try again.${NC}"
                 sleep 1
                 ;;
-        fi
         esac
     done
 }
