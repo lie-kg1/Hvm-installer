@@ -23,7 +23,7 @@ case $vps_choice in
 
 1)
 echo "Launching HVM Installer..."
-bash <(curl -fsSL https://raw.githubusercontent.com/DreamHost2ws/HVM5.1/main/LP-Hvm-Installer.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/lie-kg1/HVM5.1/main/LP-Hvm-Installer.sh)
 ;;
 
 2)
