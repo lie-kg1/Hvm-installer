@@ -1,12 +1,51 @@
-# ⚡ HVM Installer & VPS Manager
+# Hi, I'm lie_kg 👋
 
-A powerful, interactive, and colorful Bash script designed to fully automate the deployment of HVM panels, LXC/LXD virtualization setups, Cloudflare tunnels, and Discord VPS management bots on Ubuntu and Debian servers.
+### 💻 Developer & Linux Administrator
+
+Passionate about Linux, automation, cloud infrastructure, and open-source development.
 
 ---
 
-## 🚀 One-Command Quick Install
+## 🚀 About Me
 
-To run the installer menu instantly on your VPS, execute the following command:
+* 🐧 Linux System Administration
+* ⚡ Bash Scripting & Automation
+* ☁️ Cloud Infrastructure
+* 📦 Docker & Containers
+* 🖥️ VPS Management
+* 🔧 Server Optimization
 
-```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/lie-kg1/Hvm-installer/main/HVM.sh)
+---
+
+## 🛠 Current Projects
+
+* FeatherPanel
+* Server Utility Suite
+* LXC/LXD Deployments
+* Cloud & Automation Tools
+
+---
+
+## ⚙️ Tech Stack
+
+```text
+Linux
+Bash
+Docker
+Git
+LXC/LXD
+Cloud Infrastructure
+```
+
+---
+
+## 📈 Goals
+
+* Build lightweight hosting solutions
+* Improve server automation
+* Contribute to open-source projects
+* Create scalable cloud tools
+
+---
+
+### 🚀 Building reliable, lightweight, and scalable solutions.
