@@ -14,16 +14,7 @@ Passionate about Linux, automation, cloud infrastructure, and open-source develo
 
 ## 🛠 Current Projects
 
-* FeatherPanel
 * Server Utility Suite
 * LXC/LXD Deployments
-
-## ⚙️ Tech Stack
-
-* Linux
-* Bash
-* Docker
-* Git
-* LXC/LXD
 
 ### 🚀 Building reliable, lightweight, and scalable solutions.
